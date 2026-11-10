@@ -1,0 +1,18 @@
+from colorama import Fore, Style
+
+name = input("Введите имя: ")
+last_name = input("Введите фамилию: ")
+group = input("Введите вашу группу: ")
+specialty = input("Введите вашу специальность: ")
+interest = input("Введите интересующую область IT: ")
+print(Fore.GREEN + "========================================")
+print(Fore.GREEN + "       РЕЗУЛЬТАТ ПРАКТИЧЕСКОЙ РАБОТЫ")
+print(Fore.GREEN + "========================================")
+print(Fore.CYAN + f"Имя: {name}")
+print(Fore.CYAN + f"Фамилия: {last_name}")
+print(Fore.CYAN + f"Группа: {group}")
+print(Fore.CYAN + f"Специальность: {specialty}")
+print(Fore.CYAN + f"Интерес: {interest}")
+print("")
+print(Fore.GREEN + "Рабочее окружение подготовлено")
+print(Style.RESET_ALL)
