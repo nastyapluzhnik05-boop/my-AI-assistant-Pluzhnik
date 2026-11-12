@@ -1,0 +1,2 @@
+clone, git add, git commit, git push и git pull — покрывают повседневный рабочий цикл.
+Ветвление в
